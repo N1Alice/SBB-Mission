@@ -1,9 +1,9 @@
 package com.ll.sbb_mission_231127;
 
-import com.ll.sbb_mission_231127.mysite.sbb.Answer;
-import com.ll.sbb_mission_231127.mysite.sbb.AnswerRepository;
-import com.ll.sbb_mission_231127.mysite.sbb.Question;
-import com.ll.sbb_mission_231127.mysite.sbb.QuestionRepository;
+import com.ll.sbb_mission_231127.mysite.sbb.answer.Answer;
+import com.ll.sbb_mission_231127.mysite.sbb.answer.AnswerRepository;
+import com.ll.sbb_mission_231127.mysite.sbb.question.Question;
+import com.ll.sbb_mission_231127.mysite.sbb.question.QuestionRepository;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
